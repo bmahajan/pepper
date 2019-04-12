@@ -1,6 +1,6 @@
 $(function () {
     $(".unverified-user").click(function () {
-        //TODO Get the button clicked
+        //TODO Get the button click ed
         email = this.id;
         console.log(email);
         $.ajax({
